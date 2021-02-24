@@ -28,5 +28,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     " File icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
+    " Show indent lines
+    Plug 'Yggdroot/indentLine'
 
 call plug#end()
