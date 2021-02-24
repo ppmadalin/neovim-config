@@ -36,6 +36,9 @@ tnoremap <C-l> <C-\><C-n><C-l>
 tnoremap <leader><esc> <C-\><C-n><esc><cr>
 tnoremap <C-o> <C-\><C-n><esc><cr>
 
+" Open a terminal quick
+noremap <leader>t :split term://zsh<CR>
+
 " close terminal
 tnoremap <silent> <leader>o <C-\><C-n>:Ttoggle<cr>
 tnoremap <silent> <leader><space> <C-\><C-n>:Ttoggle<cr>
