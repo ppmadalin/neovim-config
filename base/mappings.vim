@@ -22,3 +22,6 @@ noremap <leader>q :q!<CR>
 
 " Quick save
 noremap <leader>w :w<CR>
+
+" Run python file
+noremap <leader>r :!python %<CR>
