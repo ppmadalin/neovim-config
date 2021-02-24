@@ -1,8 +1,12 @@
-"+++++++++++++++++++++++++++++++++++
-" File Type Setup                  +
-"+++++++++++++++++++++++++++++++++++
+" ++++++++++++++++++++++++++++++++++++++++++++++++++++
+" +                                                  +
+" + File Type Setup                                  +
+" +                                                  +
+" ++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
+"
+" Python
+" 
 " Number of spaces that a pre-existing tab is equal to.
 au BufRead,BufNewFile *py,*pyw,*.c,*.h set tabstop=4
 
