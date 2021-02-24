@@ -84,7 +84,7 @@ let g:python_host_prog='C:/Users/foo/Envs/neovim/Scripts/python.exe'
 ```
 :CocConfig
 ```
-```
+```json
 {
   "coc.preferences.formatOnSaveFiletypes": [ "css" , "html", "json", "python"],
 
