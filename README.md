@@ -38,6 +38,16 @@ let g:python_host_prog='/user/local/bin/python'
 ```
 :CocConfig
 ```
+```
+{
+  "coc.preferences.formatOnSaveFiletypes": [ "css" , "html", "json", "python"],
+
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true
+
+}
+
+```
 
 
 ## Windows
@@ -73,6 +83,16 @@ let g:python_host_prog='C:/Users/foo/Envs/neovim/Scripts/python.exe'
 **Step 7: Config Coc
 ```
 :CocConfig
+```
+```
+{
+  "coc.preferences.formatOnSaveFiletypes": [ "css" , "html", "json", "python"],
+
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true
+
+}
+
 ```
 
 ## Other Resources
