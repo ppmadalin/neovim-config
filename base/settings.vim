@@ -45,7 +45,7 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 
 " Settings needed for neovim to find the python and node executables
 let g:python3_host_prog = expand("~/.miniconda/envs/neovim/bin/python3.8") "
-let g:node_host_prog = expand("~/.nvm/versions/node/v12.16.1/bin/node") "
+" let g:node_host_prog = expand("~/.nvm/versions/node/v12.16.1/bin/node") "
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
