@@ -30,9 +30,14 @@ let g:python3_host_prog='/user/local/bin/python'
 let g:python_host_prog='/user/local/bin/python'
 ```
 **Step 6: Install Coc extensions
+
 ```bash
+
+npm install -g neovim
+
 :CocInstall coc-json coc-python coc-html
 ```
+
 
 **Step 7: Config Coc
 ```bash
@@ -77,6 +82,8 @@ let g:python_host_prog='C:/Users/foo/Envs/neovim/Scripts/python.exe'
 ```
 **Step 6: Install Coc extensions
 ```
+npm install -g neovim
+
 :CocInstall coc-json coc-python coc-html
 ```
 
