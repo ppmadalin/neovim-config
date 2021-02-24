@@ -29,6 +29,15 @@ pip install pynvim
 let g:python3_host_prog='/user/local/bin/python'
 let g:python_host_prog='/user/local/bin/python'
 ```
+**Step 6: Install Coc extensions
+```
+:CocInstall coc-json coc-python coc-html
+```
+
+**Step 7: Config Coc
+```
+:CocConfig
+```
 
 
 ## Windows
@@ -56,7 +65,15 @@ pip install pynvim
 let g:python3_host_prog='C:/Users/foo/Envs/neovim3/Scripts/python.exe'
 let g:python_host_prog='C:/Users/foo/Envs/neovim/Scripts/python.exe'
 ```
+**Step 6: Install Coc extensions
+```
+:CocInstall coc-json coc-python coc-html
+```
 
+**Step 7: Config Coc
+```
+:CocConfig
+```
 
 ## Other Resources
 
